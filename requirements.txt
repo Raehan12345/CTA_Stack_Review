@@ -1,0 +1,21 @@
+# Research and engine. Pinned to the versions every published number was
+# produced with; the HRP layer in particular depends on pypfopt 1.6.0 and
+# carries a shim for scipy >= 1.18.
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+PyPortfolioOpt==1.6.0
+matplotlib==3.11.1
+openpyxl==3.1.5
+pyarrow==25.0.1
+requests==2.34.2
+
+# tests and notebooks
+pytest==9.2.0
+nbformat==5.11.0
+nbconvert==7.17.1
+ipykernel==7.3.0
+
+# live execution only (Windows, MT5 terminal)
+MetaTrader5==5.0.6090; sys_platform == "win32"

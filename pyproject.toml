@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cta-stack"
+version = "1.0.0"
+description = "A volatility-targeted time-series momentum sleeve, stacked on an equity position, with its research, its data restitching and its live MQL5 engine."
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["cta", "ctadata", "live"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:anyio"
