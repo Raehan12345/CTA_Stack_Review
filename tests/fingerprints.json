@@ -1,0 +1,51 @@
+{
+ "data": "05bf414041f4a2eb",
+ "fast_pool_weekly": {
+  "nav": "93cb0f512fd42203",
+  "lev": "6d3e55d932ee085c"
+ },
+ "a12_monthly_net": {
+  "nav": "0dce694120eb10b8",
+  "lev": "04f3d12def17b6eb"
+ },
+ "a12_hrp": {
+  "nav": "bf0c3b8d101cd9f9",
+  "lev": "98650bda825ac597"
+ },
+ "a12_atr": {
+  "nav": "9c50b78013441893",
+  "lev": "04f3d12def17b6eb"
+ },
+ "a12_econ_hrp": {
+  "nav": "f6f09264b506831b",
+  "lev": "2904f059f182fe80"
+ },
+ "a12_regime_sklearn": {
+  "nav": "01457e98e203eb10",
+  "lev": "50d2285b1a12d687"
+ },
+ "pool_weekly_net": {
+  "nav": "43f16241db77840d",
+  "lev": "6d3e55d932ee085c"
+ },
+ "CHOSEN": {
+  "nav": "99e2b44042a1616b",
+  "lev": "621e596fe2367628"
+ },
+ "wk_means": {
+  "nav": "ebd8560f51bdb016",
+  "lev": "6026d96d9a5d5d07"
+ },
+ "band_edge": {
+  "nav": "61051793eba183b4",
+  "lev": "8df25940b3020c20"
+ },
+ "signal_mode": {
+  "nav": "7bb4213be437d53f",
+  "lev": "c019a16efb0616fe"
+ },
+ "continuous": {
+  "nav": "5dfd895d104c6731",
+  "lev": "a4d1776ae01b6de3"
+ }
+}
