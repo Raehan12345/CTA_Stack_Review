@@ -23,3 +23,7 @@ __pycache__/
 
 # compiled MQL5
 *.ex5
+
+# private notes
+docs/CODE_WALKTHROUGH.md
+docs/HISTORY.md

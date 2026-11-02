@@ -369,8 +369,7 @@ def _sliced_wasserstein_embedding(rets: np.ndarray, directions: np.ndarray,
     (exact as n_quantiles -> T) taken purely for speed; it keeps the embedding
     small enough to refit many times over a 20-year expanding window.
 
-    Crucially -- and this is the whole point of the multivariate version --
-    projections are sensitive to CORRELATION, which averaging the book into one
+    This is why the multivariate version exists: the projections are sensitive to CORRELATION, which averaging the book into one
     series destroys: a book whose instruments all move together is a cigar-
     shaped cloud whose spread depends strongly on projection direction, while
     an uncorrelated book is a spherical cloud with similar spread in every
