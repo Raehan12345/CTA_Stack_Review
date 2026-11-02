@@ -3,7 +3,7 @@
 #
 # **Question.** Which numbers can be trusted, and how do you tell?
 #
-# **Covers** (original notebooks 04, 18, 19, 20, 21 and the nested tests):
+# **Covers:**
 # 1. walk-forward: re-fitting a parameter per fold, against leaving it fixed;
 # 2. the risk-free rate in the Sharpe ratio;
 # 3. the out-of-sample convention, and why 2008 is never out of sample;

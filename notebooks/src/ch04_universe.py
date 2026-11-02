@@ -4,8 +4,7 @@
 # **Question.** Which markets should the sleeve trade, and can that choice be
 # made without fooling ourselves?
 #
-# **Covers** (original notebooks 08, 09, 11, 16, 22 and v2/01, v2/02, v2/04,
-# plus the nested selection tests):
+# **Covers:**
 # 1. from 7 markets to 19: breadth;
 # 2. trimming 19 to 15 by leave-one-out contribution ("Sleeve A");
 # 3. every possible 15 of the 19, exhaustively;

@@ -5,7 +5,7 @@
 # market's state, running smaller in regimes where the sleeve has
 # historically lost?
 #
-# **Covers** (original notebooks v2/05, v2/06, v2/07):
+# **Covers:**
 # 1. how the gate works: features, k-means on an expanding window, learned
 #    multipliers;
 # 2. the number of regimes, and the elbow rule ("auto-k");

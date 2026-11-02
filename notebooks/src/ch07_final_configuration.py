@@ -1,8 +1,7 @@
 # %% [markdown]
 # # Chapter 7. The final configuration, and how it compares
 #
-# **Covers** (original notebooks v2/03, v2/04, v2/08, v2/09 and the
-# benchmark analyses):
+# **Covers:**
 # 1. the configuration and its headline;
 # 2. where the return comes from;
 # 3. the stop-loss, re-derived against this configuration;

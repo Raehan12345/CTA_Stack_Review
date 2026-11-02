@@ -4,14 +4,14 @@
 # **Question.** Can a simple time-series momentum sleeve, stacked on top of a
 # 100% equity position, improve the equity investor's book?
 #
-# **Covers** (original notebooks 01, 02 and 07):
+# **Covers:**
 # 1. the signal and the two tiers of volatility targeting;
 # 2. the first universe: seven Bloomberg futures, one or two per asset class;
 # 3. the sleeve alone, sub-periods, and stacked on the S&P;
 # 4. management-fee drag and per-trade transaction costs;
 # 5. weekly against monthly rebalancing.
 #
-# **Every number here is produced by today's engine.** The original notebooks
+# **Every number here is produced by today's engine.** Earlier versions of these results
 # ran on an engine with a start-up leverage defect (see `docs/BUGFIX_LOG.md`,
 # E4) that inflated full-sample figures; where the original number differs it
 # is quoted in the text.
@@ -76,7 +76,7 @@ side = np.sign(w[LEAN]).replace({1.0: "long", -1.0: "short", 0.0: "flat"})
 # 2011-2015 is the "trend drought" the managed-futures industry also lived
 # through.
 #
-# The original notebook showed a Sharpe of 0.76 for 2006-2010 (0% rate). Most of that
+# An earlier version of this analysis showed a Sharpe of 0.76 for 2006-2010 (0% rate). Most of that
 # was the start-up leverage defect: the book opened at the 4x cap in late
 # 2007, just before the 2008 trends. On the corrected engine the same window
 # is flat. This is the clearest single illustration of why that bug mattered.
@@ -156,7 +156,7 @@ describe(costed, stacked=True)
 # net of the cost table and after the risk-free rate the sleeve is barely
 # positive, and at twice the costs it is negative. The stacked book stays
 # well above the S&P alone at every cost level, because the sleeve's value is
-# diversification rather than standalone return. (Original notebook 07, old
+# diversification rather than standalone return. (Earlier run on the old
 # engine, full sample, 0% rate: 0.43 gross to 0.32 net.)
 #
 # A standalone edge this thin is what pushed the project toward more markets

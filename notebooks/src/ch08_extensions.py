@@ -4,7 +4,7 @@
 # **Question.** Once the configuration was fixed, the remaining ways to
 # improve it were new markets and new information. What worked?
 #
-# **Covers** (original notebooks v2/10, v2/11 and the two sandbox notebooks):
+# **Covers:**
 # 1. BTC and ETH as a fifth asset class (adopted, and live);
 # 2. a 56-market universe, and the diagnosis of why it loses;
 # 3. a macro filter for the wide universe's bad window (rejected);

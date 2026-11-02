@@ -9,7 +9,7 @@
 # the same baseline, at matched realised volatility where size differs, per
 # two-year window, and by the nested test (Chapter 3).
 #
-# **Covers** (original notebooks 05, 10, 12-15, 17 and v2/05):
+# **Covers:**
 # rebalancing frequency; HRP; Economic Trend; the ATR trailing stop; the
 # Efficiency Ratio gate; the VIX gate; the COT throttle; fast and slow as
 # separate sleeves.
